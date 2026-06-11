@@ -58,7 +58,7 @@ function Particles() {
   );
 }
 
-function Stars({ n }) {
+function Stars({ n }: { n: number }) {
   return <span style={{ color: "#F59E0B", fontSize: "1rem", letterSpacing: 2 }}>{"★".repeat(n)}</span>;
 }
 
